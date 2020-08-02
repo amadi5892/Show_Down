@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Show Down
 
-## Available Scripts
+## Description:
+> Show Down is a sports event finder app. This app gives users information that is available on their favorite teams, players or sports league. No matter what sport the user has a passion for, they'll be able to find the right sporting event for them. Users will also be able to keep up with event reuslts, event schedules, event reminders and event highlights will be availale. 
 
-In the project directory, you can run:
+## 3rd Party API
+> The third party API will be from The Sports Data Base (https://www.thesportsdb.com/api.php?ref=apilist.fun). 
 
-### `npm start`
+## Wireframe
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technical Approach
+###  DB - Firebase
+Will attempt to learn firebase and use it to store my API data. Hoping to reduce the use of API calls.
+### UI
+* React Router
+* Boostrap
+### Data Structures
+* Classes
+    * User Login
+    * Event League 
+    * Event Team
+    
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Expected Roadblocks
+> * Learning and using Firebase
+> * Creating a platform where user's can search league or team events. 
+> * Being able to make a calendar/event reminder functional
 
-### `npm run build`
+## Timeline 
+### Tuesday
+* Proposal Approval
+* Start Researching Firebase
+* Set up React App
+* Research similar apps/sites and find unique differences to implement
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Wednesday 
+* Psuedo code 
+* Plan out any Parent-to-Child communication
+* Set up div element tags and create the html skeleton for data belongs
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Thursday
+* Store API data using Firebase
+* Test Firebase 
+* Create League Search
+* Test League Search
+* Create League Schedule
+* Test League Schedule
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Friday
+* Create Team Search
+* Test Team Search
+* Create User Login
+* Test User Login
+* Create User Event Reminder
+* Test User Event Reminder
 
-### `npm run eject`
+### Saturday
+* Create Highlight Reel
+* Test Highlight Reel
+* Finalize CSS Styling
+* Add Stretch Goals
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Sunday 
+* Test and Review for final add-ons or adjustments
