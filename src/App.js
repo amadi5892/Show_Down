@@ -5,10 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
-
-
-
+import Home from './components/Home';
 
 
   
@@ -38,7 +35,7 @@ function App() {
               <Home />
               </Route>
             <Route path="/country">
-              <Countrys />
+              {/* <Countrys /> */}
               </Route>
             <Route path="/wines">
               {/* <Wine /> */}
